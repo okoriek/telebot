@@ -17,7 +17,7 @@ SECRET_KEY = 'django-insecure-hoyo6(&5nltgxgm=bnags097pv&f=z=3bff=mub0la12gnh8yd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://telebot-p95r.onrender.com', '*']
 
 
 # Application definition
