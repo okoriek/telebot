@@ -15,7 +15,7 @@ def set_telegram_webhook(request):
     TELEGRAM_URL = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/setWebhook"
 
     # Your webhook URL on Render
-    webhook_url = "https://telebot-p95r.onrender.com/bot/telegram-webhook/"
+    webhook_url = "https://telebot-p95r.onrender.com/telegram-webhook/"
 
     # Send the POST request to set the webhook
     response = requests.post(TELEGRAM_URL, data={"url": webhook_url})
